@@ -15,6 +15,10 @@ export const CartContainer = styled.div`
   opacity: ${(props) => (props.isVisible ? "1" : "0")};
   transition: all 0.3s ease;
 
+  svg {
+    color: #222222;
+  }
+
   p {
     color: #222222;
   }

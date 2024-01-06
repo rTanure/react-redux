@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: grid;
+  flex-wrap: wrap;
+  
+  max-width: 100vw;
   grid-template-columns: repeat(4, 1fr);
   justify-items: start;
   padding: 40px 0 40px 40px;
