@@ -29,7 +29,7 @@ const cartReducer = (state = initialState, action) => {
     case CartActionTypes.REMOVE_PRODUCT:
       return {
         ...state,
-        products: state.products.filter(product => product.id != action.payload)
+        products: state.products.filter(product => product.id !== action.payload)
       }
     
     case CartActionTypes.INCREMENT_PRODUCT:
